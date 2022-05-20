@@ -1,0 +1,56 @@
+body {
+    background: linear-gradient((180deg, white 0%, white 100%));
+}
+.about_description{
+    color: gray;
+}
+.main-header{
+    color: white;
+}
+.email_button{
+    height: 64px;
+    color: blue;
+    background: red
+}
+
+
+.download_button{
+    background: transparent;
+    height: 64px;
+    color: white;
+}
+.navbar-brand{
+    color: white;
+}
+
+.nav-link{
+    color: white;
+}
+
+.banner-section{
+    background-image: url(featured24.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: right;
+    height: 750px;
+}
+
+@media only screen and (min-width: 1200px) {
+.person{
+    display: none;
+}
+}
+@media only screen and (max-width: 540px){
+    .banner-section {
+        background-image: none;
+    }
+}
+
+.icon_list{
+    background-color: black;
+    padding-bottom: 50%;
+    padding-top: 50%;
+    width: 30px;
+    height: 50%;
+}
+
